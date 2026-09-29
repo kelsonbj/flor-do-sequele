@@ -1,57 +1,179 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="pt">
 <head>
+    <!-- Configurações básicas -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flor Do Sequele</title>
+
+    <title>Flor do Sequele</title>
 </head>
+
 <body>
 
+    <!-- ================= HEADER ================= -->
     <header>
-        <img src="" alt="">
+        <img src="" alt="Logo Flor do Sequela">
         <h1>FLOR DO SEQUELE</h1>
         <ul>
             <li>Padaria</li>
             <li>Pastelaria</li>
             <li>Restaurante</li>
         </ul>
+
+        <!-- Navegação principal -->
         <nav>
-            <a href="#inicio">Início</a>
+            <a href="#hero">Início</a>
             <a href="#menu">Menu</a>
             <a href="#localizacao">Localização</a>
             <a href="#contacto">Contacto</a>
         </nav>
     </header>
-
+    <!-- ====== CONTEÚDO PRINCIPAL ======= -->
     <main>
+
+        <!-- ================= HERO ================= -->
         <section id="hero">
             <h2>Comida fresca, rápida e deliciosa no Sequele</h2>
-            <p>Pães, Pasteis, hamburguer, e muitos mais</p>
-            <button>fazer pedido no whatsapp </button>
-            <p>entrega rapida</p>
-            <p>qualidade de garantia</p>
-            <p>sabor em cada detalhe </p>
+
+            <p>Pães, pastéis, hambúrgueres, pizzas e muito mais</p>
+            <a href="https://wa.me/244XXXXXXXXX?text=Olá,%20quero%20fazer%20um%20pedido" target="_blank">
+                <button>Fazer pedido no WhatsApp</button>
+            </a>
+
+            <p>✔ Entrega rápida</p>
+            <p>✔ Qualidade garantida</p>
+            <p>✔ Sabor em cada detalhe</p>
         </section>
+
+        <!-- ================= SOBRE ================= -->
         <section id="inicio">
-            <h2>SOBRE NÓS</h2>
-            <H3>Mais que uma padaria somos a sua melhor refeição</H3>
-            <p>A flor do Sequele é uma padaria e pastelaria com varias unidades, dedicada a ferecer produtos de estrema qualidade aos seus clientes </p>
-            <p>Produtos de qualidade todos os dias</p>
-            <p>Tradição</p>
-            <p>varias unidadess para melhor atendimento</p>
+            <h2>Sobre Nós</h2>
+
+            <h3>Mais que uma padaria, somos a sua melhor refeição</h3>
+
+            <p>
+                A Flor do Sequela é uma padaria, pastelaria e restaurante com várias unidades,
+                dedicada a oferecer produtos de extrema qualidade aos seus clientes.
+            </p>
+
+            <p>✔ Produtos frescos todos os dias</p>
+            <p>✔ Tradição e confiança</p>
+            <p>✔ Várias unidades para melhor atendimento</p>
         </section>
+
+        <!-- ================= MENU ================= -->
         <section id="menu">
             <h2>Nossos Produtos</h2>
 
+            <!-- Navegação interna das categorias -->
+            <!-- Isso NÃO são abas reais, são links âncora -->
+            <nav id="categorias">
+                <a href="#padaria">Padaria</a>
+                <a href="#pastelaria">Pastelaria</a>
+                <a href="#restaurante">Restaurante</a>
+            </nav>
+
+            <!-- ================= PADARIA ================= -->
+            <div id="padaria">
+                <h3>Padaria</h3>
+
+                <!-- PRODUTO 1 -->
+                <div class="produto">
+                    <img src="" alt="Pão francês">
+                    <h4>Pão Francês</h4>
+                    <p>Preço: 100 Kz</p>
+
+                    <!-- WhatsApp com mensagem específica -->
+                    <a href="https://wa.me/244XXXXXXXXX?text=Quero%20comprar%20pão%20francês" target="_blank">
+                        <button>Pedir</button>
+                    </a>
+                </div>
+
+                <!-- PRODUTO 2 -->
+                <div class="produto">
+                    <img src="" alt="Pão de forma">
+                    <h4>Pão de Forma</h4>
+                    <p>Preço: 500 Kz</p>
+
+                    <a href="https://wa.me/244XXXXXXXXX?text=Quero%20comprar%20pão%20de%20forma" target="_blank">
+                        <button>Pedir</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ================= PASTELARIA ================= -->
+            <div id="pastelaria">
+                <h3>Pastelaria</h3>
+
+                <div class="produto">
+                    <img src="" alt="Bolo de chocolate">
+                    <h4>Bolo de Chocolate</h4>
+                    <p>Preço: 2500 Kz</p>
+
+                    <a href="https://wa.me/244XXXXXXXXX?text=Quero%20comprar%20bolo%20de%20chocolate" target="_blank">
+                        <button>Pedir</button>
+                    </a>
+                </div>
+
+                <div class="produto">
+                    <img src="" alt="Pastel">
+                    <h4>Pastel</h4>
+                    <p>Preço: 300 Kz</p>
+
+                    <a href="https://wa.me/244XXXXXXXXX?text=Quero%20comprar%20pastel" target="_blank">
+                        <button>Pedir</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ================= RESTAURANTE ================= -->
+            <div id="restaurante">
+                <h3>Restaurante</h3>
+
+                <div class="produto">
+                    <img src="" alt="Hambúrguer">
+                    <h4>Hambúrguer</h4>
+                    <p>Preço: 1500 Kz</p>
+
+                    <a href="https://wa.me/244XXXXXXXXX?text=Quero%20comprar%20hambúrguer" target="_blank">
+                        <button>Pedir</button>
+                    </a>
+                </div>
+
+                <div class="produto">
+                    <img src="" alt="Pizza">
+                    <h4>Pizza</h4>
+                    <p>Preço: 3500 Kz</p>
+
+                    <a href="https://wa.me/244XXXXXXXXX?text=Quero%20comprar%20pizza" target="_blank">
+                        <button>Pedir</button>
+                    </a>
+                </div>
+            </div>
+
         </section>
 
-        
+        <!-- ================= LOCALIZAÇÃO ================= -->
+        <section id="localizacao">
+            <h2>Localização</h2>
+
+            <p>📍 Unidade 1 – Sequela</p>
+            <p>📍 Unidade 2 – Sequela</p>
+            <p>📍 Unidade 3 – Sequela</p>
+        </section>
 
     </main>
 
-    <footer>
-
+    <!-- ================= RODAPÉ ================= -->
+    <footer id="contacto">
+        <p>📞 Telefone: +244 999 999 999</p>
+        <p><a href="">💬 WhatsApp disponível</a></p>
+        <p>📱 Redes sociais</p>
+        <ul>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Facebook</a></li>
+        </ul>
     </footer>
-    
+
 </body>
 </html>
